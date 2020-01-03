@@ -1,20 +1,20 @@
 # (string) Title of your wiki
 title: git-wiki-70-noescape
 description: "PoC of Drassil/git-wiki#70"
-show_downloads: true
+show_downloads: false
 show_wiki_pages: true
 show_wiki_pages_limit: 10
 paginate: 5
 paginate_path: "/blog/page:num"
-blog_feature: true
-show_wiki_posts: true
+blog_feature: false
+show_wiki_posts: false
 show_wiki_posts_limit: 5
 logo_url: 
 google_analytics:
 git_branch: master
 theme: 
 use_github_wiki: false
-use_prose_io: true
+use_prose_io: false
 service: github
 search_engine : "js"
 google_cse_token:
