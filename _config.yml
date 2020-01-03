@@ -1,6 +1,6 @@
 # (string) Title of your wiki
-title: git-wiki
-description: Git-Wiki demo and documentation
+title: git-wiki-70-noescape
+description: "PoC of Drassil/git-wiki#70"
 show_downloads: true
 show_wiki_pages: true
 show_wiki_pages_limit: 10
@@ -9,15 +9,15 @@ paginate_path: "/blog/page:num"
 blog_feature: true
 show_wiki_posts: true
 show_wiki_posts_limit: 5
-logo_url: http://drassil.github.io/git-wiki/assets/images/1200px-Wikipedia-logo-v2.svg_.png
+logo_url: 
 google_analytics:
-git_branch: gh-pages
+git_branch: master
 theme: 
 use_github_wiki: false
 use_prose_io: true
 service: github
 search_engine : "js"
-google_cse_token: 007197903287787072094:8rbvkeqo6qw
+google_cse_token:
 wiki_folder : "wiki"
 permalink: /blog/posts/:year/:month/:day/:title:output_ext
 
@@ -72,11 +72,11 @@ plugins:
 inc_before_toc : 
 inc_after_toc :
 inc_before_content :
-inc_after_content: "drassil/comments.html"
+inc_after_content:
 inc_before_footer :
 inc_after_footer : 
 inc_before_head : 
-inc_after_head : "drassil/head.html"
+inc_after_head :
 inc_before_meta :
 inc_after_meta : 
 inc_before_scripts : 
@@ -90,7 +90,7 @@ inc_after_tail :
 inc_before_tools : 
 inc_after_tools : 
 
-inc_before_page_list : "drassil/sidebar.html"
+inc_before_page_list :
 inc_after_page_list :
 inc_before_post_list :
 inc_after_post_list :
